@@ -1,0 +1,18 @@
+name = "trans-greeting-1"
+version = "0.1.0"
+defaultTargets = ["trans-greeting-1"]
+
+[[lean_lib]]
+name = "TransGreeting1"
+
+[[lean_exe]]
+name = "trans-greeting-1"
+root = "Main"
+
+[[require]]
+name = "greeting"
+path = "../greetingV2"
+
+[[require]]
+name = "greeting"
+path = "../greetingV1"
