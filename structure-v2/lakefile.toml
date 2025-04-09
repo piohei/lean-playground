@@ -1,0 +1,18 @@
+name = "Merkle"
+version = "0.1.0"
+defaultTargets = ["Merkle"]
+
+[[lean_lib]]
+name = "Extracted"
+
+[[lean_lib]]
+name = "Merkle"
+
+[[require]]
+name = "Lampe"
+path = "/home/piotr/Workspace/Reilabs/lampe/Lampe"
+
+[[require]]
+name = "proven-zk"
+git = "https://github.com/reilabs/proven-zk"
+rev = "4.15"
