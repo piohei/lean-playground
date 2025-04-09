@@ -2,6 +2,8 @@
 
 import Lampe
 
+namespace Merkle
+namespace «1.0.0»
 namespace Extracted
 namespace Merkle
 namespace «1.0.0»

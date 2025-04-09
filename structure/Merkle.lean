@@ -1,16 +1,17 @@
 import Lampe
-import Extracted
+import Merkle.Extracted
 
 import Merkle.Field
 import Merkle.Ref
 import Merkle.Spec
 
 namespace Merkle
+namespace «1.0.0»
 
 open Lampe
 open Merkle.«1.0.0».Ref
 open Merkle.«1.0.0».Spec
-open Extracted.Merkle.«1.0.0»
+open Merkle.«1.0.0».Extracted.Merkle.«1.0.0»
 
 theorem main_correct [Fact (CollisionResistant Merkle.«1.0.0».Ref.State.compress)] {tree : MerkleTree (Fp lp) Merkle.«1.0.0».Ref.State.compress 32}:
     STHoare lp Extracted.Merkle.«1.0.0».env

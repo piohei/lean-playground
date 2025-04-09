@@ -1,9 +1,6 @@
-name = "Merkle"
-version = "0.1.0"
+name = "Merkle-1.0.0"
+version = "1.0.0"
 defaultTargets = ["Merkle"]
-
-[[lean_lib]]
-name = "Extracted"
 
 [[lean_lib]]
 name = "Merkle"

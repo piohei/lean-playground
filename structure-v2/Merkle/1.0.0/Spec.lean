@@ -1,4 +1,4 @@
-import Extracted
+import Merkle.«1.0.0».Extracted
 import Merkle.«1.0.0».Field
 import Merkle.«1.0.0».Ref
 import Lampe
@@ -13,7 +13,7 @@ namespace Spec
 
 open Lampe
 open Merkle.«1.0.0».Ref
-open Extracted.Merkle.«1.0.0»
+open Merkle.«1.0.0».Extracted.Merkle.«1.0.0»
 
 def lp : Lampe.Prime := ⟨p, pPrime⟩
 
